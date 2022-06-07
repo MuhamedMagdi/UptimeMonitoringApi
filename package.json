@@ -1,0 +1,54 @@
+{
+  "name": "uptime-monitoring-api",
+  "version": "1.0.0",
+  "description": "Uptime monitoring RESTful API server that allows authenticated users to monitor URLs, and get detailed uptime reports about their availability, average response time, and total uptime/downtime.",
+  "main": "src/app.ts",
+  "scripts": {
+    "build": "npx tsc",
+    "start": "node ./build/app.js",
+    "dev": "nodemon ./src/app.ts",
+    "lint": "eslint --ext .ts .",
+    "lint:fix": "eslint --fix --ext .ts .",
+    "format": "prettier --write \"src/**/*.ts\"",
+    "jasmine": "jasmine",
+    "test": "npm run build && npm run jasmine"
+  },
+  "keywords": [
+    "monitoring"
+  ],
+  "author": "Mohamed Magdi",
+  "license": "ISC",
+  "dependencies": {
+    "@types/nodemailer": "^6.4.4",
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.1",
+    "express": "^4.17.3",
+    "https": "^1.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "mongoose": "^6.3.5",
+    "nodemailer": "^6.7.5"
+  },
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/bcrypt": "^5.0.0",
+    "@types/express": "^4.17.13",
+    "@types/jasmine": "^4.0.3",
+    "@types/jsonwebtoken": "^8.5.8",
+    "@types/lodash": "^4.14.182",
+    "@types/mongoose": "^5.11.97",
+    "@types/node": "^17.0.25",
+    "@types/supertest": "^2.0.12",
+    "@typescript-eslint/eslint-plugin": "^5.20.0",
+    "@typescript-eslint/parser": "^5.20.0",
+    "bcrypt": "^5.0.1",
+    "eslint": "^8.13.0",
+    "eslint-config-prettier": "^8.5.0",
+    "jasmine": "^4.1.0",
+    "jasmine-spec-reporter": "^7.0.0",
+    "nodemon": "^2.0.15",
+    "prettier": "^2.6.2",
+    "supertest": "^6.2.2",
+    "typescript": "^4.6.3"
+  }
+}
