@@ -8,6 +8,7 @@
     "start": "node ./build/app.js",
     "dev": "nodemon ./src/app.ts",
     "lint": "eslint --ext .ts .",
+    "docs": "serve -l 3001 apiDocumentation",
     "lint:fix": "eslint --fix --ext .ts .",
     "format": "prettier --write \"src/**/*.ts\"",
     "jasmine": "jasmine",
