@@ -1,5 +1,7 @@
 # Uptime Monitoring API
 
+Uptime monitoring RESTful API server that allows authenticated users to monitor URLs, and get detailed uptime reports about their availability, average response time, and total uptime/downtime.
+
 ## Table of contents
 - [Uptime Monitoring API](#uptime-monitoring-api)
   - [Table of contents](#table-of-contents)
@@ -22,6 +24,11 @@ npm i
 ---
 
 ## Scripts
+- View the api docs it will be on port ``3001``
+```
+npm run docs
+```
+
 - Build the project from `TypeScript` to `JavaScript` and save it to `/build`
 ```
 npm run build
