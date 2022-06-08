@@ -13,7 +13,7 @@ const port: number = config.app.port as number;
 
 app.use(json());
 
-app.use(routes);
+app.use('/api/v1', routes);
 
 app.listen(port, () => {
     console.log(`The server is running on port ${port}...`);
