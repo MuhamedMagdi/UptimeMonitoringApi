@@ -4,9 +4,7 @@
 - [Uptime Monitoring API](#uptime-monitoring-api)
   - [Table of contents](#table-of-contents)
   - [Installation](#installation)
-  - [- Rename `.env.example` to `.env` and fill you data](#--rename-envexample-to-env-and-fill-you-data)
   - [Server Configurations](#server-configurations)
-  - [- The server is running on port `3000`](#--the-server-is-running-on-port-3000)
   - [Scripts](#scripts)
 
 ---
