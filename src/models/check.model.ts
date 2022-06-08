@@ -218,6 +218,7 @@ const checkExist = async (check: CHECK): Promise<boolean> => {
 };
 
 export {
+    Protocol,
     CHECK,
     initCheck,
     createCheck,

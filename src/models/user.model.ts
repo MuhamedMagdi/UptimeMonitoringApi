@@ -28,7 +28,6 @@ const userSchema = new Schema<USER>({
         },
         verificationCode: {
             type: String,
-            immutable: true,
         },
     },
 });
